@@ -1,0 +1,138 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+a:hover{
+    text-decoration:none;
+}
+#login {
+    background-color: #487BA6;
+    padding: 70px 0;
+}
+.bg-login{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 460px;
+    border-radius: 15px 0 0 15px;
+}
+.tela-login {
+    margin: 0;
+    border-radius: 15px;
+}
+.box-login{
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 13px 20px 20px 0 rgb(0 0 0 / 19%) !important;
+    background-color: #fff;
+    border-radius: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px !important;
+    position: relative;
+}
+.box-img{
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 13px 20px 20px 0 rgb(0 0 0 / 19%) !important;
+    border-radius: 15px 0 0 15px;
+}
+.box-login h1 {
+    font-size: 32px;
+    color: #004293;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.box-login label {
+    font-size: 13px;
+    font-weight: 300;
+    color: #487ba6;
+}
+.btn-login {
+    border: solid 1px #487BA6 !important;
+    padding: 9px 40px !important;
+    border-radius: 35px !important;
+    color: #487BA6 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    margin-top: 30px;
+}
+.btn-login:hover{
+    background-color: #487BA6 !important;
+    color: #fff !important;
+    transition: 0.5s !important;
+    text-decoration: none !important;
+}
+.box-login .form-control {
+    border: solid 1px #487BA6;
+}
+.btn-esqueceu{
+    position: relative;
+    left: 48px;
+    font-size: 12px;
+    top: -37px;
+}
+#sidebarMenu{
+    height: auto;
+}
+
+.logo-sistema{
+    padding: 15px;
+    width: 90px;
+}
+header {
+    margin-bottom: 0px;
+    background-color: #004293;
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-link {
+    font-size: 15px;
+    color: #00427f;
+    font-weight: 600;
+}
+.card-aviso {
+    background-color: #ebf5ff;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+.mural-avisos h2{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.mural-avisos h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.icones {
+    width: 22px;
+    margin-right: 4px;
+    position: relative;
+    top: -2px;
+}
+.download{
+    width: 15px;
+    position: relative;
+    top: -2px;
+}
+.btn-baixar-arquivo{
+    color: #1867d3 !important;
+    text-decoration: none !important;
+}
+footer {
+    background-color: #004293;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    padding: 15px;
+}
+.navbar {
+    padding: 15px;
+}
